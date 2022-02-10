@@ -1,0 +1,54 @@
+.profle{
+    /* left: 0px; */
+    margin-top: 3.75rem;
+    display: flex;
+    width: 100%;
+    
+   
+  
+}
+.profleRight{
+     flex: 9;
+ } 
+
+.profleRightTop{
+    margin-left: 17rem;
+    padding: 20px;
+}
+.profleCover{
+    height: 320px;
+    position: relative;
+}
+.profleCoverImg{
+    width: 100%;
+    height: 300px;
+    /* object-fit: cover; */
+}
+.profleUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 185px;
+    border: 3px solid white;
+     
+}
+.profleInfo{
+    display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profleInfoName{
+    font-size: 24px;
+}
+.profleInfoDesc{
+    font-weight: 300;
+}
+.profleRightBottom{
+    display: flex;
+}
+ 
